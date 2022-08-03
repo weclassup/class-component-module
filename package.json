@@ -1,5 +1,5 @@
 {
-  "name": "@methodstudio/class-component-module",
+  "name": "@weclassup/class-component-module",
   "version": "0.10.35",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
@@ -93,11 +93,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MethodStudio/class-component-module.git"
+    "url": "git+https://github.com/weclassup/class-component-module.git"
   },
   "author": "",
   "bugs": {
-    "url": "https://github.com/MethodStudio/class-component-module/issues"
+    "url": "https://github.com/weclassup/class-component-module/issues"
   },
-  "homepage": "https://github.com/MethodStudio/class-component-module#readme"
+  "homepage": "https://github.com/weclassup/class-component-module#readme"
 }
