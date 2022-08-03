@@ -1,0 +1,8 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html:lang(zh-Hant-TW) {
+	font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", Arial;
+}

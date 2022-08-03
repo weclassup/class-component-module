@@ -1,0 +1,103 @@
+{
+  "name": "@methodstudio/class-component-module",
+  "version": "0.10.35",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "types": "./lib/esm/index.d.ts",
+  "license": "MIT",
+  "files": [
+    "/lib"
+  ],
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc && vite build",
+    "serve": "vite preview",
+    "type-check": "tsc --pretty --noEmit"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/pro-light-svg-icons": "^5.15.4",
+    "@fortawesome/pro-regular-svg-icons": "^5.15.4",
+    "@fortawesome/pro-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.15",
+    "@hookform/error-message": "^2.0.0",
+    "@tailwindcss/line-clamp": "^0.2.1",
+    "@types/lodash.isequal": "^4.5.5",
+    "@types/lodash.merge": "^4.6.6",
+    "@types/lodash.throttle": "^4.1.6",
+    "@types/react-router-config": "^5.0.3",
+    "@types/react-router-dom": "^5.1.8",
+    "axios": "^0.21.1",
+    "classnames": "^2.3.1",
+    "eventemitter3": "^4.0.7",
+    "history": "4.7.2",
+    "jsonwebtoken": "^8.5.1",
+    "lodash.isequal": "^4.5.0",
+    "lodash.merge": "^4.6.2",
+    "lodash.throttle": "^4.1.1",
+    "moment": "^2.29.1",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-hook-form": "^7.12.2",
+    "react-router-config": "^5.1.1",
+    "react-router-dom": "^5.2.0",
+    "react-use": "^17.2.4",
+    "react-zoom-pan-pinch": "^2.1.3",
+    "sockette": "^2.0.6",
+    "swiper": "^6.8.3",
+    "unstated-next": "^1.1.0"
+  },
+  "peerDependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/pro-light-svg-icons": "^5.15.4",
+    "@fortawesome/pro-regular-svg-icons": "^5.15.4",
+    "@fortawesome/pro-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.15",
+    "@hookform/error-message": "^2.0.0",
+    "@tailwindcss/line-clamp": "^0.2.1",
+    "@types/lodash.isequal": "^4.5.5",
+    "@types/lodash.merge": "^4.6.6",
+    "@types/lodash.throttle": "^4.1.6",
+    "@types/react-router-dom": "^5.1.8",
+    "axios": "^0.21.1",
+    "classnames": "^2.3.1",
+    "eventemitter3": "^4.0.7",
+    "history": "4.7.2",
+    "jsonwebtoken": "^8.5.1",
+    "lodash.isequal": "^4.5.0",
+    "lodash.merge": "^4.6.2",
+    "lodash.throttle": "^4.1.1",
+    "moment": "^2.29.1",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-hook-form": "^7.12.2",
+    "react-router-dom": "^5.2.0",
+    "react-use": "^17.2.4",
+    "react-zoom-pan-pinch": "^2.1.3",
+    "swiper": "^6.8.3",
+    "unstated-next": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^8.5.5",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@vitejs/plugin-react-refresh": "^1.3.1",
+    "prettier": "^2.6.0",
+    "typescript": "^4.3.2",
+    "vitawind": "^1.2.7",
+    "vite": "^2.4.4"
+  },
+  "directories": {
+    "example": "src",
+    "lib": "/lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MethodStudio/class-component-module.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/MethodStudio/class-component-module/issues"
+  },
+  "homepage": "https://github.com/MethodStudio/class-component-module#readme"
+}
